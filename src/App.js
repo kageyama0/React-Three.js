@@ -7,6 +7,7 @@ import { TextureLoading } from './components/TextureLoading'
 import { Dodecahedron } from './components/Dodecahedron'
 import { SvgLoading } from './components/SvgLoading'
 import { TexturedBox } from './components/TexturedBox'
+import { HelloGLSL } from './components/HelloGLSL'
 //import { Font } from './components/Font'
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/4'><SvgLoading /></Route>
         <Route path='/5'><TexturedBox /></Route>
         {/* <Route path='/6'><Font /></Route> */}
+        <Route path='/7'><HelloGLSL /></Route>
       </Switch>
       <Link to='/'>ホーム画面へ</Link>
       <Link to='/1'>　回転する箱</Link>
@@ -29,6 +31,7 @@ const App = () => {
       <Link to='/4'>　svg読み込み</Link>
       <Link to='/5'>　画像貼り付けた箱へ</Link>
       {/* <Link to='/6'>　Font</Link> */}
+      <Link to='/7'>　GLSL初期サンプル</Link>
     </BrowserRouter>
   )
 }
