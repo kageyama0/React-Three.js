@@ -34,6 +34,14 @@ $ yarn start
 ・Line(THREE.Vector3, useCallback)/ドラッグによる移動(Dragcontrols)
   https://codesandbox.io/s/react-three-fiber-line-jcenh?file=/src/index.js:8-53
 
+・ヌルヌル動くモヤっとボールみたいなやつ
+  https://codesandbox.io/embed/react-three-fiber-gltf-loader-animations-xh4xc
+
+・shaderMaterial(fragment/vertex/uniforms)で四角い回転する箱
+  https://codesandbox.io/s/y7f9k
+
+・動く説明付き１２面体
+  https://codesandbox.io/s/r3f-suspense-zu2wo?from-embed
 
 面白い(gl-react)
 ・紫のモヤモヤ
